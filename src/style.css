@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-900 text-white  px-4 py-4 mx-auto
+}
+
+
+
+.list li:has(input:checked) label {
+  color: hsl(00, 0%, 60%);
+}
+
+
